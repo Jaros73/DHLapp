@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35825.156 d17.13
+VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DHLapp", "DHLapp.csproj", "{8439FA98-1896-4BE6-9A35-99857E4DAB7E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DHLapp.Client", "DHLapp.Client.csproj", "{8439FA98-1896-4BE6-9A35-99857E4DAB7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DHLapp.Server", "..\DHLapp.Server\DHLapp.Server.csproj", "{814C8D9D-123F-4735-B4F2-F7562E3A4FCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DHLapp.Shared", "..\DHLapp.Shared\DHLapp.Shared.csproj", "{961E4D78-8848-4215-85FC-D892BF7EF95E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{8439FA98-1896-4BE6-9A35-99857E4DAB7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8439FA98-1896-4BE6-9A35-99857E4DAB7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8439FA98-1896-4BE6-9A35-99857E4DAB7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{814C8D9D-123F-4735-B4F2-F7562E3A4FCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{814C8D9D-123F-4735-B4F2-F7562E3A4FCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{814C8D9D-123F-4735-B4F2-F7562E3A4FCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{814C8D9D-123F-4735-B4F2-F7562E3A4FCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{961E4D78-8848-4215-85FC-D892BF7EF95E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{961E4D78-8848-4215-85FC-D892BF7EF95E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{961E4D78-8848-4215-85FC-D892BF7EF95E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{961E4D78-8848-4215-85FC-D892BF7EF95E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
